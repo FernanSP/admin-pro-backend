@@ -1,6 +1,6 @@
 const { response } = require('express');
 
-const Hospital = require('../model/hospital');
+const Hospital = require('../models/hospital');
 
 const getHospitales = async(req, res = response) => {
 
